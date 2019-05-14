@@ -1,0 +1,117 @@
+body {
+  height: 100%;
+}
+
+body .content-banner {
+  /* Full height */
+  height:100vh;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}
+
+nav.mb-4 {
+  margin-bottom: 0 !important;
+}
+
+i.material-icons {
+  font-size: 30px;
+  color: white;
+  padding-right: 10px;
+  margin-top: -5px;
+}
+
+.banner-text {
+  margin-top: 20vh;
+  width: 50vw;
+  height: 40vh;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.banner-text h1, .banner-text p {
+  padding-top: 6vh;
+  color: white;
+}
+
+.banner-text h1 {
+  font-size: 5rem;
+}
+
+.form-structure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  color: white;
+  background-color: #e9ecef;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.form-structure h2 {
+  color: #5A6169;
+}
+
+.form-structure p {
+  color: #5A6169;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form-structure label {
+  color: #5A6169;
+}
+
+.form-structure-inscription form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15vh;
+}
+
+.banner-text button {
+  background-color: white;
+}
+
+body .content-banner-small {
+  /* Full height */
+  height:50vh;
+  background-image: url('../images/background2.jpg');
+  background-size: cover;
+}
+
+.content-banner-small .banner-text {
+  margin-top: 10vh;
+  width: 50vw;
+  height: 30vh;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.content-banner-small .banner-text h1, .content-banner-small .banner-text p {
+  padding-top: 3vh;
+  color: white;
+}
+
+.content-banner-small .banner-text h1 {
+  font-size: 3rem;
+}
